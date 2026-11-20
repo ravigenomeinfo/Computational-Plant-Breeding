@@ -1,0 +1,25 @@
+# Large data and generated outputs
+data/raw/
+data/interim/
+results/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.tif
+*.tiff
+*.h5
+*.hdf5
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+.Rhistory
+.RData
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
